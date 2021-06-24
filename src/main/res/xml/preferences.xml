@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+            android:title="@string/nomes_settings">
+                <SwitchPreference
+                    android:defaultValue="true"
+                    android:key="key_name_playss"
+                    android:summary="@string/plays_name_iniciar_desc"
+                    android:title="@string/plays_name_iniciar" />
+        </PreferenceCategory>
+        <PreferenceCategory
+           android:title="@string/Narrador">
+               <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_geral_inc"
+                    android:summary="@string/geral_inco_selected_desc"
+                    android:title="@string/geral_inco_selected" />
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:enabled="false"
+                    android:summary="@string/buy_desc"
+                    android:key="key_finallizar_narrar"
+                    android:title="@string/final_selected" />
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_ativar_narador"
+                    android:enabled="false"
+                    android:summary="@string/buy_desc"
+                    android:title="@string/ativar_narador_selected" />
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_dedura_narador"
+                    android:enabled="false"
+                    android:summary="@string/buy_desc"
+                    android:title="@string/dedura_narador_selected" />
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_clicks_narador"
+                    android:enabled="false"
+                    android:summary="@string/buy_desc"
+                    android:title="@string/clicks_narador_selected" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/MaxPontos">
+        <ListPreference
+            android:defaultValue="20"
+            android:entries="@array/pref_sync_frequency_titulos"
+            android:entryValues="@array/pref_sync_frequency_valores"
+            android:key="key_maximo_pontos"
+            android:negativeButtonText="@null"
+            android:enabled="false"
+            android:summary="@string/buy_desc"
+            android:positiveButtonText="@null"
+            android:title="@string/maximo_selected" />
+</PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/Vibrar">
+                  <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_vibrar"
+            android:title="@string/vibrar_selected" />
+                <ListPreference
+                    android:defaultValue="2000"
+                    android:entries="@array/pref_tempo_vibracao_titulos"
+                    android:entryValues="@array/pref_tempo_vibracao_valores"
+                    android:key="key_tempo_vibracao"
+                    android:negativeButtonText="@null"
+                    android:positiveButtonText="@null"
+                    android:title="@string/maximo_vibrate_selected" />
+        </PreferenceCategory>
+    </PreferenceScreen>

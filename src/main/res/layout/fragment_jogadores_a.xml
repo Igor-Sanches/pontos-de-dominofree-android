@@ -1,0 +1,610 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:id="@+id/semLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/sem_diag"
+                                android:textAlignment="center"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/passeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/passe"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_paaseA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_paaseA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_paaseA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/passe2Layout"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/passe_de_dois"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_paase2A"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_paase2A2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_paase2A"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/passe_saidaLayout"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/passe_de_saida"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_passe_de_saidaA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_passe_de_saidaA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_passe_de_saidaA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/passe2_saidaLayout"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/passe_de_saida2"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_passe_de_saida2A"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_passe_de_saidaA22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_passe_de_saida2A"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/geralLayout"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/geral"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_geralA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_geralA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_geralA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/geral_incLayout"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/geral_inc"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_geral_incA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_geral_incA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_geral_incA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/batidaLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/batida"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_batidaA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_batidaA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_batidaA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/batida_lascLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/batida_lascada"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_batida_lascadaA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_batida_lascadaA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_batida_lascadaA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/batida_cambLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ViewSwitcher
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/background_layout"
+                        android:elevation="20dp"
+                        android:padding="7dp"
+                        android:theme="@style/Base.AlertDialog.AppCompat"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/batida_camburo"
+                                android:textSize="18sp"
+                                android:textStyle="bold|italic" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_batida_camburoA"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/txt_batida_camburoA2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar_batida_camburoA"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:progress="1" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ViewSwitcher>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

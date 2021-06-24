@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_diagnostico"
+        android:icon="@drawable/ic_action_diagn"
+        android:title="@string/dialog" />
+    <item
+        android:id="@+id/nav_names"
+        android:icon="@drawable/ic_action_names"
+        android:title="@string/nomes" />
+    <item
+        android:id="@+id/nav_shareapp"
+        android:icon="@drawable/ic_action_share_app"
+        android:title="@string/compartilhar" />
+    <item
+        android:id="@+id/nav_rateapp"
+        android:icon="@drawable/ic_action_rate"
+        android:title="@string/rate" />
+    <item
+        android:id="@+id/nav_proapp"
+        android:icon="@drawable/ic_action_pro"
+        android:title="@string/pro" />
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/ic_action_support"
+        android:title="@string/support" />
+    <item android:title="@string/infos">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/settings" />
+            <item
+                android:id="@+id/nav_manual"
+                android:icon="@drawable/ic_action_tutorial"
+                android:title="@string/tutorial" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_action_sobre"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

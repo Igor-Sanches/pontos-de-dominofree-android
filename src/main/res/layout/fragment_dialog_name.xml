@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_nomes"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="wrap_content"
+        app:title="@string/inserir_name"
+        app:titleTextColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jogadoresALayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <EditText
+                android:id="@+id/jogadoresA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="20dp"
+                android:ems="10"
+                android:hint="@string/jogador_a"
+                android:inputType="textPersonName"
+                android:maxLength="21"
+                android:maxLines="1"
+                android:minHeight="@dimen/activity_horizontal_margin"
+                android:minWidth="300dp"
+                android:textColorLink="@android:color/holo_orange_dark" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/jogadoresBLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/jogadoresB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:elevation="20dp"
+                android:ems="10"
+                android:hint="@string/jogador_b"
+                android:inputType="textPersonName"
+                android:maxLength="21"
+                android:maxLines="1"
+                android:textColorLink="@android:color/holo_orange_dark" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.ButtonBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_salvarnomes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:text="@string/save_names"
+                android:textColor="@android:color/background_light" />
+
+        </android.support.v7.widget.ButtonBarLayout>
+    </LinearLayout>
+</LinearLayout>

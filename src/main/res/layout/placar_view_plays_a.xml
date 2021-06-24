@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ViewSwitcher
+            android:id="@+id/Layout_placarA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_layout"
+            android:elevation="20dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:theme="@style/Base.AlertDialog.AppCompat"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/emojiA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="🙂"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pontosA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="0"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="@string/pontos"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </ViewSwitcher>
+
+        <ViewSwitcher
+            android:id="@+id/Layout_editA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_layout"
+            android:elevation="20dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:theme="@style/Base.AlertDialog.AppCompat"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/edit_pontosA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:imeOptions="actionNone"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:text="0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </ViewSwitcher>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floating_editA"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:visibility="visible"
+            app:elevation="13dp"
+            app:srcCompat="@drawable/ic_action_edit" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floating_saveA"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:visibility="gone"
+            app:elevation="13dp"
+            app:srcCompat="@drawable/ic_action_save" />
+
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/name_palys_a"
+        android:text="@string/jogador_a"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+</LinearLayout>

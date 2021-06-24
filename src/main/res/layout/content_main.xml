@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/placar_view_plays_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:scrollbars="none"
+                    android:verticalScrollbarPosition="defaultPosition">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Abtn_passe"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe" />
+
+                            <Button
+                                android:id="@+id/Abtn_passe2"
+                                android:layout_width="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_dois" />
+
+                            <Button
+                                android:id="@+id/Abtn_passesaida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_saida" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Abtn_passe2saida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_saida2" />
+
+                            <Button
+                                android:id="@+id/Abtn_geral"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/geral" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Abtn_geralinsco"
+                                android:layout_width="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/geral_inc" />
+
+                            <Button
+                                android:id="@+id/Abtn_batida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Abtn_batidalascada"
+                                android:layout_width="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida_lascada" />
+
+                            <Button
+                                android:id="@+id/Abtn_batidacamburao"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida_camburo" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/layout_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/placar_view_plays_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:scrollbars="none"
+                    android:verticalScrollbarPosition="defaultPosition">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Bbtn_passe"
+                                android:layout_width="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe" />
+
+                            <Button
+                                android:id="@+id/Bbtn_passe2"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_dois" />
+
+                            <Button
+                                android:id="@+id/Bbtn_passesaida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_saida" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Bbtn_passe2saida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/passe_de_saida2" />
+
+                            <Button
+                                android:id="@+id/Bbtn_geral"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_weight="1"
+                                android:text="@string/geral" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Bbtn_geralinsco"
+                                android:layout_width="wrap_content"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/geral_inc" />
+
+                            <Button
+                                android:id="@+id/Bbtn_batida"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/Bbtn_batidalascada"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida_lascada" />
+
+                            <Button
+                                android:id="@+id/Bbtn_batidacamburao"
+                                style="@style/Widget.AppCompat.Button.Small"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/batida_camburo" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

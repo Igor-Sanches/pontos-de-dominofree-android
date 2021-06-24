@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Points dominoes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="jogador_a">Players A</string>
+    <string name="jogador_b">Players B</string>
+    <string name="sozial_contatos">Social networks and contacts</string>
+    <string name="sem_diag">There are no saved data here!</string>
+    <string name="add">, added as:</string>
+    <string name="dife">and difference of</string>
+    <string name="por">, per:</string>
+    <string name="dev">Developed by: Igor Dutra Sanches</string>
+    <string name="desc_about">Application developed by Igor ... Sanches, to score points for a domino game. More information can be found at WhatsApp or Facebook.</string>
+    <string name="fechar">Close</string>
+    <string name="removeu">removed</string>
+    <string name="save_names">Save names</string>
+    <string name="inserir_name">"Enter the names "</string>
+    <string name="modo_uso">Tutorials and how to use it</string>
+    <string name="adicionou">added</string>
+    <string name="user_objetivo_t">"Purpose of the application "</string>
+    <string name="modif_placar_tel">Placar modified by:</string>
+    <string name="modif_de">modified from</string>
+    <string name="modif_para">for</string>
+    <string name="comvandage">, with an advantage of</string>
+    <string name="aproveitamento">is gaining with a</string>
+    <string name="user_objetivo_d">This application was developed to facilitate the marking of a dotted domino game, it is simple, intuitive, fast and elegant.</string>
+    <string name="user_como_jogarporpontos_t">How to play with points?</string>
+    <string name="user_como_jogarporpontos_d">"A dominoes game of dots is played with board players, and are formed doubles. At a table, the two players face each other, can not tell which stones they have and start the game with the 6-sena. In the course of the game, if the player picks up an exit pass, it is worth 4 points, a two-way pass is worth 6 points, a normal pass is worth 2, a two-way pass is 4, a general one is worth 6, a general unconscious is worth 6 to another team, valley 4, chipped hit 8, and a 10-point chase hit, when the game is over and no team makes 20 points, a new match is started and the player is now close to the player who was a player in the previous match. The double game comes into play when the game is closed and there is no way to continue then a double game is started and each pass, general or hit is worth double points. "</string>
+    <string name="user_passe_t">Pass</string>
+    <string name="narrar_empate">The game is a draw!</string>
+    <string name="user_passe_d">The pass is used when a player places a stone and the next player does not have the same as if the player has no place to play it passes, and 2 points are inserted to the players who gave the pass, for example: Players B passed the 2 points goes to Players A.</string>
+    <string name="user_passe2_t">Pass 2</string>
+    <string name="user_passe2_d">The pass of 2 is used when two players are passed even if the player of yours has passed the points are to those who gave the pass, worth 4 points.</string>
+    <string name="user_passesaida_t">Outgoing and outgoing pass of 2</string>
+    <string name="user_passesaida_d">It is the same scheme of the pass and pass of 2 only that when starting the game and is worth more than one pass and an exit pass</string>
+    <string name="user_geral_t">General</string>
+    <string name="user_geral_d">The general is used when a single player can play both a pass in all at once, more if the player of the pass of 3 (general) and does not shout \"General\" the general becomes unconscious taking the 6 points to the opposing team, you always have to check the stones before you play.</string>
+    <string name="user_geralI_t">General unconscious</string>
+    <string name="user_geralI_d">The general unconscious is how much one of the players in a general and forgets to shout \"General\", if this happens is because that move was not wanted and became unconscious taking the 6 points to the other team.</string>
+    <string name="user_batidas_t">Beat, chip and beat</string>
+    <string name="user_batidas_d">When a player has a stone, he will be able to finish the game if it is finished in a single point. The beat is normal and is worth 4 points if the player who hit has a stone that can hit the two points. and in the right of sena and the player owns a farm of sena, the beat will be chipped and is worth 8 points, more if the player hits with a camburão the beat is worth 20 points.</string>
+    <string name="user_20do_t">20 point match or folded</string>
+    <string name="user_20dos_d">The 20-point match is used for team-time matches, every 20 points the match ends and a new team starts with another team. The doubled match happens when the game is closed without being able to open so it is restarted, and each point is worth twice as much.</string>
+    <string name="info">Information and help</string>
+    <string name="user_menu">User manual</string>
+    <string name="about_menu">About the app</string>
+    <string name="narrarclicks">Narra clicks</string>
+    <string name="deturar">Speak to edit board</string>
+    <string name="narrador">Scoreboard</string>
+    <string name="narrar_final">Final story</string>
+    <string name="nomes_plays">Player names</string>
+    <string name="diagno_menu">Diagnosis</string>
+    <string name="pontos">points</string>
+    <string name="passe">Pass</string>
+    <string name="passe_de_dois">Pass 2</string>
+    <string name="passe_de_saida">Pass exit</string>
+    <string name="passe_de_saida2">Pass 2 way</string>
+    <string name="geral">General</string>
+    <string name="geral_inc">General unconscious</string>
+    <string name="batida">Beat</string>
+    <string name="batida_lascada">Chipped beating</string>
+    <string name="batida_camburo">Shake shake</string>
+    <string name="isDobrado">Folded match</string>
+    <string name="new_game">New match</string>
+    <string name="isvinte">Maximum of</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="maximo_selected">Finish match with max...</string>
+    <string name="geral_inco_selected">Finish match with general unconscious</string>
+    <string name="geral_inco_selected_desc">This function causes the game to be finalized as an unconscious player.</string>
+    <string name="final_selected_desc">The narrator will announce the winner when the match ends</string>
+    <string name="final_selected">Narrate victory</string>
+    <string name="ativar_narador_selected">Enable scoreboard narrator</string>
+    <string name="ativar_narador_selected_desc">This function activates a button that can be clicked at any time to narrate the board</string>
+    <string name="dedura_narador_selected_desc">This function will inform the players which change made in the editor, for example: how many points were removed or added</string>
+    <string name="dedura_narador_selected">"Enable scoreboard narrator "</string>
+    <string name="clicks_narador_selected_desc">This function will narrate all the action of the game, each click</string>
+    <string name="clicks_narador_selected">Enable Click Narrator</string>
+    <string name="vibrar_selected">Vibrate at game end and notify</string>
+    <string name="editor_limpo">Unable to save clean scoreboard.</string>
+    <string name="editor_zero">Can not start with zero.</string>
+    <string name="editor_impa">The scoreboard can not be impa!</string>
+    <string name="e">and</string>
+    <string name="a">the</string>
+    <string name="empate">tied</string>
+    <string name="vencedor">won</string>
+    <string name="perdedor">They lost</string>
+    <string name="reinicir">New match</string>
+    <string name="Continue">Continue</string>
+    <string name="dialog">Diagnosis</string>
+    <string name="nomes">Player names</string>
+    <string name="classificar">Rate app</string>
+    <string name="compartilhar">Share app</string>
+    <string name="infos">Information</string>
+    <string name="settings">Settings</string>
+    <string name="tutorial">Usage tutorial</string>
+    <string name="about">About the app</string>
+    <string name="resumo">Summary</string>
+    <string name="plays_name_iniciar">Display player names</string>
+    <string name="plays_name_iniciar_desc">Displays players names on the home screen</string>
+
+    <string-array name="pref_sync_frequency_titulos">
+        <item>10 Points</item>
+        <item>20 Points</item>
+        <item>40 Points</item>
+        <item>50 Points</item>
+        <item>70 Points</item>
+        <item>100 Points</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_valores">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_tempo_vibracao_titulos">
+        <item>1 Second</item>
+        <item>2 Seconds</item>
+        <item>3 Seconds</item>
+        <item>4 Seconds</item>
+        <item>5 Seconds</item>
+    </string-array>
+
+    <string-array name="pref_tempo_vibracao_valores">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_register">There is no record</string>
+    <string name="ponto">Score</string>
+    <string name="vez">turn</string>
+    <string name="vezes">times</string>
+    <string name="frag_dobrado">folded up</string>
+    <string name="whats">WhatsApp</string>
+    <string name="version">Version:</string>
+    <string name="cancel">Close dialog</string>
+    <string name="support">Support</string>
+    <string name="doar">Donate</string>
+    <string name="Narrador">Storytelling functions</string>
+    <string name="MaxPontos">Point limits</string>
+    <string name="Vibrar">Vibrator and notification</string>
+    <string name="maximo_vibrate_selected">Maximum vibrator time</string>
+    <string name="like">Are you enjoying the app?</string>
+    <string name="like_rate">If you\'re enjoying the app, give your opinion on what you found in the app.</string>
+    <string name="like_buy">Do a good deed.</string>
+    <string name="like_doar">We help grow and bring new apps, and with a good quality by donating one of the values. below or be a partner making donations on a monthly basis.</string>
+    <string name="desc_doar">Let\'s help with...</string>
+    <string name="editor_open">Open editor</string>
+    <string name="editor_clase">Closed editor</string>
+    <string name="editor_modify">Placard modified.</string>
+    <string name="ativado">activated</string>
+    <string name="desativado">disabled</string>
+    <string name="hnarradoo">Storyteller</string>
+    <string name="share">Share game</string>
+    <string name="jogo_empate">Match tie</string>
+    <string name="vencendo">are winning from</string>
+    <string name="fimdejogo">End of the game</string>
+    <string name="venceram">won</string>
+    <string name="inco">with an unconscious general of the</string>
+    <string name="descricao">A good player does not need good stones to win!</string>
+    <string name="action_settings">Settings</string>
+    <string name="geralinc_enc">" nm"</string>
+    <string name="nomes_settings">Names</string>
+    <string name="buy_desc">Available only in Pro version</string>
+    <string name="rate">Rate</string>
+    <string name="pro">Pro version</string>
+
+</resources>

@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Pontos de dominó</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="plays_name_iniciar">Exibir nomes dos jogadores</string>
+    <string name="plays_name_iniciar_desc">Exibira os nomes dos jogadores na tela de inicio</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="jogador_a">Jogadores A</string>
+    <string name="jogador_b">Jogadores B</string>
+    <string name="sozial_contatos">Redes sociais e contatos</string>
+    <string name="sem_diag">Não há nenhum dados salvos aqui!</string>
+    <string name="add">, adicionado as:</string>
+    <string name="dife">e diferença de</string>
+    <string name="por">, por:</string>
+    <string name="dev">Desenvolvido por: Igor Dutra Sanches</string>
+    <string name="desc_about">Aplicativo desenvolvido por Igor... Sanches, para marcar pontos de uma partida de dominó. Mais informações entre em contato pelo WhatsApp ou Facebook.</string>
+    <string name="fechar">Fechar</string>
+    <string name="removeu">removeu</string>
+    <string name="save_names">Salvar nomes</string>
+    <string name="inserir_name">Insira os nomes</string>
+    <string name="modo_uso">Tutoriais e modo de uso</string>
+    <string name="adicionou">adicionou</string>
+    <string name="buy_desc">Disponível apenas na versão Pro</string>
+    <string name="user_objetivo_t">Objetivo do aplicativo</string>
+    <string name="modif_placar_tel">Placar modificado por:</string>
+    <string name="modif_de">modificou de</string>
+    <string name="modif_para">para</string>
+    <string name="comvandage">, com uma vantagem de</string>
+    <string name="aproveitamento">está ganhando com um aproveitamento de</string>
+    <string name="user_objetivo_d">Este aplicativo foi desenvolvido para facilitar a marcação de uma partida de dominó com pontos, é simples, intuitivo, rápido e elegante.</string>
+    <string name="user_como_jogarporpontos_t">Como jogar com pontos?</string>
+    <string name="user_como_jogarporpontos_d">Uma partida de dominó de pontos é jogada com quadro jogadores, e são formadas duplas. Em uma mesa fica a dupla um de frente pro outro, não pode falar quais pedras possuem e inicia o jogo com o camburão de 6 (sena). No decorrer da partida se o jogador pega um passe de saída vale 4 pontos, passe de saída de dois vale 6 pontos, um passe normal vale 2, passe de dois vale 4, geral vale 6, geral inconsciente vale 6 pro outro time, batida vale 4, batida lascada vale 8 e batida de camburão vale 20 pontos, ao terminar a partida e nenhum time fizer 20 pontos é iniciada uma nova partida e quem sair agora é o jogador q estiver perto do que saiu jogador na partida anterior. A partida dobrada entra em jogo quanto o jogo é fechado e não tem como continuar ai uma partida dobrada é iniciada e cada passe, geral ou batida vale o dobro de pontos.</string>
+    <string name="user_passe_t">Passe</string>
+    <string name="narrar_empate">A partida está empate!</string>
+    <string name="user_passe_d">O passe é usado quanto um jogador colocar uma pedra e o próximo jogador não tem a mesma, se o jogador não tiver onde jogar ele passa, e é inserido 2 pontos aos jogadores q deram o passe, exemplo: Jogadores B passou o 2 pontos vai para os Jogadores A.</string>
+    <string name="user_passe2_t">Passe de 2</string>
+    <string name="user_passe2_d">O passe de 2 é usado quanto dois jogadores são passados mesmo se o jogador do seu tiver passar os pontos são para quem deu o passa, valendo 4 pontos.</string>
+    <string name="user_passesaida_t">Passe de saida e saida de 2</string>
+    <string name="user_passesaida_d">É o mesmo esquema do passe e passe de 2 só que ao iniciar a partida e vale mais que um passe e um passe de saída.</string>
+    <string name="user_geral_t">Geral</string>
+    <string name="user_geral_d">A geral é usada quanto um único jogador conseguir jogar tanto um passe em todos de uma vez, mais se o jogador de o passe de 3 (geral) e não grita \"Geral\" a geral se torna inconsciente levando os 6 pontos ao time adversário, é preciso sempre conferir as pedras antes de jogar.</string>
+    <string name="user_geralI_t">Geral inconsciente</string>
+    <string name="user_geralI_d">A geral inconsciente é quanto um dos jogadores da uma geral e esquece de grita \"Geral\", se isso acontecer é porque essa jogada não foi querendo e se tornado inconsciente levando os 6 pontos ao outro time.</string>
+    <string name="user_batidas_t">Batida, batida lascada e de camburão</string>
+    <string name="user_batidas_d">Quanto um jogador possuir uma pedra é sera capaz de finalizar a partida se for finalizada em uma única ponta a batida é normal e vale 4 pontos, se o jogador que bateu tiver uma pedra que pode bater nas duas pontos exemplo: na ponta esquerda de quina e na direita de sena e o jogador possuir uma quinta de sena, a batida sera lascada e vale 8 pontos,  mais se o jogador bater com um camburão a batida vale 20 pontos.</string>
+    <string name="user_20do_t">Partida de 20 pontos ou dobrada</string>
+    <string name="user_20dos_d">A partida de 20 pontos é usada para partidas de tira time, a cada 20 pontos a partida finaliza e inicia uma nova com outro time. A partida dobrada acontece quanto o jogo é fechado sem poder abrir assim é reiniciado, e cada ponto vale me dobro.</string>
+    <string name="info">Informações e ajuda</string>
+    <string name="user_menu">Manual de uso</string>
+    <string name="about_menu">Sobre o app</string>
+    <string name="narrarclicks">Narra cliques</string>
+    <string name="deturar">Fala ao editar placar</string>
+    <string name="narrador">Narra placar</string>
+    <string name="narrar_final">Narra final</string>
+    <string name="nomes_plays">Nomes dos jogadores</string>
+    <string name="diagno_menu">Diagnostico</string>
+    <string name="pontos">pontos</string>
+    <string name="passe">Passe</string>
+    <string name="passe_de_dois">Passe 2</string>
+    <string name="passe_de_saida">Passe saída</string>
+    <string name="passe_de_saida2">Passe 2 saída</string>
+    <string name="geral">Geral</string>
+    <string name="geral_inc">Geral inconsciente</string>
+    <string name="batida">Batida</string>
+    <string name="batida_lascada">Batida lascada</string>
+    <string name="batida_camburo">Batida camburão</string>
+    <string name="isDobrado">Partida dobrada</string>
+    <string name="new_game">Nova partida</string>
+    <string name="isvinte">Máximo de</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="maximo_selected">Finalizar partida com máximo de...</string>
+    <string name="geral_inco_selected">Finalizar partida com geral inconsciente</string>
+    <string name="geral_inco_selected_desc">Esta função faz com que a partida seja finalizada quanto um jogador der geral inconsciente.</string>
+    <string name="final_selected_desc">O narrador irá anunciar o vencedor quanto a partida finalizar</string>
+    <string name="final_selected">Narrar vitória</string>
+    <string name="ativar_narador_selected">Ativar narrador de placar</string>
+    <string name="ativar_narador_selected_desc">Esta função ativa um botão que pode ser clicado a qualquer momento para narrar o placar</string>
+    <string name="dedura_narador_selected_desc">Esta função irá informar os jogadores qual a mudança feita no editor, exemplo: quantos pontos foram removidos ou adicionados</string>
+    <string name="dedura_narador_selected">Ativar narrador do editor de placar</string>
+    <string name="clicks_narador_selected_desc">Esta função irá narrar toda a ação do jogo, cada clique</string>
+    <string name="clicks_narador_selected">Ativar narrador de cliques</string>
+    <string name="theme_select">Selecione o tema</string>
+    <string name="vibrar_selected">Vibrar ao finalizar partida e notificar</string>
+    <string name="editor_limpo">Não é possível salvar placar limpo.</string>
+    <string name="editor_zero">Não é possível começar com zero.</string>
+    <string name="editor_impa">O placar não pode ser impa!</string>
+    <string name="e">e</string>
+    <string name="a">a</string>
+    <string name="empate">empataram</string>
+    <string name="vencedor">venceram</string>
+    <string name="perdedor">perderam</string>
+    <string name="reinicir">Nova partida</string>
+    <string name="Continue">Continuar</string>
+    <string name="dialog">Diagnostico</string>
+    <string name="nomes">Nomes dos jogadores</string>
+    <string name="classificar">Classificar app</string>
+    <string name="compartilhar">Compartilhar app</string>
+    <string name="infos">Informações</string>
+    <string name="settings">Configurações</string>
+    <string name="tutorial">Tutorial de uso</string>
+    <string name="about">Sobre o app</string>
+    <string name="resumo">Resumo</string>
+
+    <string-array name="pref_sync_frequency_titulos">
+        <item>10 pontos</item>
+        <item>20 pontos</item>
+        <item>40 pontos</item>
+        <item>50 pontos</item>
+        <item>70 pontos</item>
+        <item>100 pontos</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_valores">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_tempo_vibracao_titulos">
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+    </string-array>
+
+    <string-array name="pref_tempo_vibracao_valores">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="not_register">Não há registro</string>
+    <string name="ponto">ponto</string>
+    <string name="vez">vez</string>
+    <string name="vezes">vezes</string>
+    <string name="frag_dobrado">dobrado</string>
+    <string name="whats">WhatsApp</string>
+    <string name="version">Versão:</string>
+    <string name="cancel">Fechar dialogo</string>
+    <string name="support">Suporte</string>
+    <string name="doar">Doar</string>
+    <string name="Narrador">Funções narradores</string>
+    <string name="MaxPontos">Limites de pontos</string>
+    <string name="Vibrar">Vibrador e notificação</string>
+    <string name="maximo_vibrate_selected">Tempo máximo do vibrador</string>
+    <string name="like">Esta gostando do app?</string>
+    <string name="like_rate">Se estiver gostando do app, der sua opnião sobre oque achou do aplicativo.</string>
+    <string name="like_buy">Faça uma boa ação.</string>
+    <string name="like_doar">Ajudemos a crescer e trazer novos apps, e com uma boa qualidade, doando um dos valores abaixo ou seja um socio fazendo doações mensalmente.</string>
+    <string name="desc_doar">Ajudemos com...</string>
+    <string name="editor_open">Editor aberto</string>
+    <string name="editor_clase">Editor fechado</string>
+    <string name="editor_modify">Placar modificado.</string>
+    <string name="ativado">ativado</string>
+    <string name="desativado">desativado</string>
+    <string name="hnarradoo">Narrador</string>
+    <string name="share">Compartilhar partida</string>
+    <string name="jogo_empate">Partida empate</string>
+    <string name="vencendo">estão vencendo de</string>
+    <string name="fimdejogo">Fim da partida</string>
+    <string name="venceram">venceram</string>
+    <string name="inco">com um geral inconsciente dos</string>
+    <string name="descricao">Um bom jogador não precisa de boas pedras para vencer!</string>
+    <string name="geralinc_enc">" n"</string>
+    <string name="nomes_settings">Nomes</string>
+    <string name="rate">Classificar app</string>
+    <string name="pro">Versão Pro</string>
+
+</resources>
